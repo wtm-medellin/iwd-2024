@@ -1,12 +1,12 @@
-import './App.css'
-import Demo from './components/demo/demo'
+import "./App.css";
+import Header from "./components/header/header";
 
 function App() {
   return (
     <>
-      <Demo />
+      <Header />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
