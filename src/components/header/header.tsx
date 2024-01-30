@@ -1,6 +1,6 @@
-import "./header.scss";
-import headerImage from "../../assets/img/header-img.svg";
-import WTMLogo from "../../assets/img/wtm-logo-black.png";
+import './header.scss'
+import headerImage from '../../assets/img/header-img.svg'
+import WTMLogo from '../../assets/img/wtm-logo-black.png'
 
 export default function Header() {
   return (
@@ -30,5 +30,5 @@ export default function Header() {
         <img src={WTMLogo} alt="Women Tech Makers Logo" />
       </div>
     </header>
-  );
+  )
 }

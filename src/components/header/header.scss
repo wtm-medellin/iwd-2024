@@ -4,16 +4,16 @@ $header-btn-border-radius: 10px;
 
 .header {
   &__btn {
-      background-color: $dark-blue;
-      border-radius: $header-btn-border-radius;
-      color: $black;
-      display: inline-block;
-      font-weight: 700;
-      padding: 10px 15px;
+    background-color: $dark-blue;
+    border-radius: $header-btn-border-radius;
+    color: $black;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 15px;
     text-decoration: none;
 
     &-container {
-      cursor:pointer;
+      cursor: pointer;
       margin-top: 20px;
       position: relative;
       width: fit-content;
