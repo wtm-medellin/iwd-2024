@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.about {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 100px;
+  position: relative;
+
+  &__text-container {
+    padding: 20px;
+  }
+
+  &::after {
+    content: '';
+    background-color: $light-blue;
+    bottom: 0;
+    height: 75px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 0;
+
+    &__text-container {
+      padding: 30px 100px;
+    }
+  }
+}

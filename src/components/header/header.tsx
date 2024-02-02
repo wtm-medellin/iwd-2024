@@ -1,6 +1,5 @@
 import './header.scss'
 import headerImage from '../../assets/img/header-img.svg'
-import WTMLogo from '../../assets/img/wtm-logo-black.png'
 
 export default function Header() {
   return (
@@ -25,9 +24,6 @@ export default function Header() {
       </div>
       <div className="header__image header__section">
         <img src={headerImage} aria-hidden />
-      </div>
-      <div className="header__wtmlogo">
-        <img src={WTMLogo} alt="Women Tech Makers Logo" />
       </div>
     </header>
   )

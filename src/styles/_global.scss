@@ -11,3 +11,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+a {
+  color: $black;
+  text-decoration: underline;
+  text-decoration-color: $teal;
+  text-decoration-thickness: 2px;
+}

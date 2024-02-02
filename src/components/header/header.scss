@@ -3,6 +3,8 @@
 $header-btn-border-radius: 10px;
 
 .header {
+  padding-top: 70px;
+
   &__btn {
     background-color: $dark-blue;
     border-radius: $header-btn-border-radius;
@@ -42,7 +44,7 @@ $header-btn-border-radius: 10px;
     align-items: center;
     display: grid;
     height: 100vh;
-    margin: 0 auto;
+    margin-top: 75px;
     min-height: 600px;
     position: relative;
 
