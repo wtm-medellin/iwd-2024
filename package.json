@@ -26,12 +26,13 @@
     "eslint": "^8.55.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "husky": "^9.0.7",
-    "lint-staged": "^15.2.0",
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.2",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "prettier --write --ignore-unknown",
+    "*.{ts,tsx}": "eslint --cache --fix"
   }
 }
