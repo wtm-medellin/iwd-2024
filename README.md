@@ -21,9 +21,11 @@ npm run dev
 ```
 
 ## 💻 Contributing
+
 Find the instructions to contribute to the project at [https://github.com/wtm-medellin/iwd-2024](https://github.com/wtm-medellin/iwd-2024)
 
 ## 📂 Project Structure
+
 The project structure is as follows:
 
 - **src/components:** Contains the components and sections of the website.
