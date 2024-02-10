@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Women Tech Makers IWD 2024 Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the code for the Women Tech Makers International Women's Day 2024 website hosted at [https://wtmmedellin.com/](https://wtmmedellin.com/).
 
-Currently, two official plugins are available:
+## 🔧 Setup for Local Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To set up the project for local development, follow these steps:
 
-## Expanding the ESLint configuration
+```bash
+# clone the repository
+git clone https://github.com/wtm-medellin/iwd-2024.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# navigate to the project folder
+cd iwd-2024
 
-- Configure the top-level `parserOptions` property like this:
+# install dependencies
+npm install
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# run the project locally:
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 💻 Contributing
+Find the instructions to contribute to the project at [https://github.com/wtm-medellin/iwd-2024](https://github.com/wtm-medellin/iwd-2024)
+
+## 📂 Project Structure
+The project structure is as follows:
+
+- **src/components:** Contains the components and sections of the website.
+- **src/styles:** Contains global styles and variables.
+- **src/assets:** Contains static assets.
+- **CONTRIBUTING.md:** Guidelines for contributing to the project.
