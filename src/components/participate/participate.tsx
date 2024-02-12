@@ -14,7 +14,7 @@ export default function Participate() {
             </a>
           </li>
           <li>
-            <b>Aprende:</b> Asiste al evento el 6 de Abril, las inscripciones
+            <b>Aprende:</b> Asiste al evento el 13 de Abril, las inscripciones
             abrirán pronto
           </li>
           <li>
