@@ -3,7 +3,7 @@ import speakersImage from '../../assets/old/img/speakers-image.png'
 
 export default function Speakers() {
   return (
-    <section className="speakers">
+    <section className="speakers" id='speakers'>
       <span className="speakers__decor" />
       <div>
         <img src={speakersImage} />
