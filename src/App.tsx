@@ -10,6 +10,7 @@ import Footer from './sections/footer/footer'
 function App() {
   return (
     <>
+      <Navigation />
       <Header />
       <About />
       <Participate />
