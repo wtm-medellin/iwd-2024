@@ -1,5 +1,5 @@
 import './header.scss'
-import headerImage from '../../assets/img/header-img.svg'
+import headerImage from '../../assets/old/img/header-img.svg'
 
 export default function Header() {
   return (

@@ -1,5 +1,5 @@
 import './navigation.scss'
-import WTMLogo from '../../assets/img/wtm-logo.svg'
+import WTMLogo from '../../assets/old/img/wtm-logo.svg'
 
 export default function Navigation() {
   return (
