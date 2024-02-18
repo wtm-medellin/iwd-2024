@@ -1,5 +1,5 @@
 import './about.scss'
-import lightBuld from '../../assets/img/about-decor.svg'
+import lightBuld from '../../assets/old/img/about-decor.svg'
 
 export default function About() {
   const aboutText =

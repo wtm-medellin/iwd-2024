@@ -1,8 +1,14 @@
 import './sponsors.scss'
-import titleDecoration from '../../assets/img/sponsors-decor.svg'
+import titleDecoration from '../../assets/old/img/sponsors-decor.svg'
 
 export default function Sponsors() {
-  const communities = ['digitalDiaspora', 'geekGirls', 'pioneras', 'pyladies']
+  const communities = [
+    'digital-diaspora',
+    'geek-girls',
+    'pioneras',
+    'pyladies',
+    'tech-community',
+  ]
 
   return (
     <section className="sponsors">
@@ -23,7 +29,7 @@ export default function Sponsors() {
         <ul className="sponsors__list">
           {communities.map((element) => {
             const image = new URL(
-              `../../assets/communities/${element}.png`,
+              `../../assets/communities/${element}.svg`,
               import.meta.url
             ).href
 

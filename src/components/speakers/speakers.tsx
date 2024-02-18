@@ -1,5 +1,5 @@
 import './speakers.scss'
-import speakersImage from '../../assets/img/speakers-image.png'
+import speakersImage from '../../assets/old/img/speakers-image.png'
 
 export default function Speakers() {
   return (
