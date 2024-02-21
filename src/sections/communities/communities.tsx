@@ -1,7 +1,7 @@
-import './sponsors.scss'
-import titleDecoration from '../../assets/old/img/sponsors-decor.svg'
+import './community.scss'
+import titleDecoration from '../../assets/old/img/communities-decor.svg'
 
-export default function Sponsors() {
+export default function Communities() {
   const communities = [
     'digital-diaspora',
     'geek-girls',
@@ -11,8 +11,8 @@ export default function Sponsors() {
   ]
 
   return (
-    <section className="sponsors">
-      <div className="sponsors__title sponsors__section">
+    <section className="communities">
+      <div className="communities__title communities__section">
         <div>
           <h2>Aliados</h2>
           <p>
@@ -20,13 +20,13 @@ export default function Sponsors() {
             evento.
           </p>
         </div>
-        <div className="sponsors__decor">
+        <div className="communities__decor">
           <img src={titleDecoration} />
         </div>
       </div>
-      <div className="sponsors__section">
-        <h3 className="sponsors__section-title">Comunidades</h3>
-        <ul className="sponsors__list">
+      <div className="communities__section">
+        <h3 className="communities__section-title">Comunidades</h3>
+        <ul className="communities__list">
           {communities.map((element) => {
             const image = new URL(
               `../../assets/communities/${element}.svg`,
@@ -34,15 +34,15 @@ export default function Sponsors() {
             ).href
 
             return (
-              <li className="sponsors__item">
+              <li className="communities__item">
                 <img src={image} />
               </li>
             )
           })}
         </ul>
       </div>
-      <div className="sponsors__section">
-        <h3 className="sponsors__section-title">Patrocinadores</h3>
+      <div className="communities__section">
+        <h3 className="communities__section-title">Patrocinadores</h3>
         <p>
           ¿Tu empresa está interesada en patrocinar? Escríbenos para ser parte
           del evento a wtm@pionerasdev.co{' '}
