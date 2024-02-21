@@ -1,5 +1,5 @@
-import './community.scss'
-import titleDecoration from '../../assets/old/img/communities-decor.svg'
+import './communities.scss'
+import titleDecoration from '../../assets/old/img/sponsors-decor.svg'
 
 export default function Communities() {
   const communities = [

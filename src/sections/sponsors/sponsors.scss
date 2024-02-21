@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.sponsors {
+  margin-bottom: 130px;
+
+  &__container {
+    padding-left: 5%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media screen and (min-width: $viewport-md) {
+      flex-direction: row;
+    }
+  }
+
+  &__email {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+  &__text,
+  &__cta {
+    padding: 0 20px;
+
+    @media screen and (min-width: $viewport-md) {
+      flex-basis: 50%;
+    }
+  }
+}

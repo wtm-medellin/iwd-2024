@@ -10,14 +10,14 @@
   position: relative;
   text-align: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $viewport-md) {
     display: grid;
   }
 
   &__container {
     padding-top: 100px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       padding-top: 0;
     }
 
