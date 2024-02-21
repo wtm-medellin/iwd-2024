@@ -21,7 +21,7 @@
     z-index: -1;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $viewport-md) {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding-top: 0;

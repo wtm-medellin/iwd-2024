@@ -48,7 +48,7 @@ $header-btn-border-radius: 10px;
     min-height: 800px;
     position: relative;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       grid-template-columns: 1fr 1fr;
       min-height: 650px;
     }
@@ -71,7 +71,7 @@ $header-btn-border-radius: 10px;
       z-index: -1;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       &::after {
         border-radius: 50px 0 0 50px;
       }
@@ -86,7 +86,7 @@ $header-btn-border-radius: 10px;
     padding: 60px 30px 20px 30px;
     position: relative;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       padding: 60px;
     }
     @media screen and (min-width: 1024px) {
@@ -98,7 +98,7 @@ $header-btn-border-radius: 10px;
     font-size: 40px;
     font-weight: 700;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       font-size: 50px;
     }
 
@@ -111,7 +111,7 @@ $header-btn-border-radius: 10px;
     font-size: 20px;
     margin-bottom: 15px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       font-size: 30px;
     }
   }
@@ -127,7 +127,7 @@ $header-btn-border-radius: 10px;
     position: absolute;
     width: 200px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       bottom: 0;
       top: unset;
       left: 0;

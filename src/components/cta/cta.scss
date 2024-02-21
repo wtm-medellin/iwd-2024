@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.cta {
+  background: $picton-blue;
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 0 $black;
+  color: $white;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 auto;
+  padding: 10px 100px;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+
+  @media screen and (min-width: $viewport-md) {
+    padding: 18px 150px;
+  }
+}

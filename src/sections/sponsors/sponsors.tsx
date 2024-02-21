@@ -1,0 +1,36 @@
+import SectionTitle from '../../components/sectionTitle/sectionTitle'
+import Cta from '../../components/cta/cta'
+import './sponsors.scss'
+
+export default function Sponsors() {
+  return (
+    <section className="sponsors">
+      <div className="sponsors__container">
+        <SectionTitle
+          text="Patrocinadores"
+          direction="right"
+          style="blue"
+          assetName="badge-vector"
+        />
+        <div className="sponsors__content">
+          <div className="sponsors__text">
+            <p>
+              Gana visibilidad para tu empresa y apoya a más mujeres a construir
+              su carrera en tecnología.
+            </p>
+            <br />
+            <p>
+              Escríbenos a{' '}
+              <a href="mailto:wtm@pionerasdev.co" className="sponsors__email">
+                wtm@pionerasdev.co
+              </a>
+            </p>
+          </div>
+          <div className="sponsors__cta">
+            <Cta text="Contáctanos" url="mailto:wtm@pionerasdev.co" />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
