@@ -1,10 +1,10 @@
 import './App.css'
-import Header from './components/header/header'
-import About from './components/about/about'
-import Participate from './components/participate/participate'
-import Speakers from './components/speakers/speakers'
-import Community from './components/community/community'
-import Footer from './components/footer/footer'
+import Header from './sections/header/header'
+import About from './sections/about/about'
+import Participate from './sections/participate/participate'
+import Speakers from './sections/speakers/speakers'
+import Communities from './sections/communities/communities'
+import Footer from './sections/footer/footer'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <About />
       <Participate />
       <Speakers />
-      <Community />
+      <Communities />
       <Footer />
     </>
   )
