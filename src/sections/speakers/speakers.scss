@@ -1,46 +1,118 @@
 @import '../../styles/variables';
 
-.speakers {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr;
-  padding: 100px 50px;
-  position: relative;
-  text-align: center;
+// .speakers {
+//   display: flex;
+//   flex-direction: column-reverse;
+//   align-items: center;
+//   justify-items: center;
+//   grid-template-columns: 1fr 1fr;
+//   padding: 100px 50px;
+//   position: relative;
+//   text-align: center;
 
-  @media screen and (min-width: $viewport-md) {
-    display: grid;
+//   @media screen and (min-width: 768px) {
+//     display: grid;
+//   }
+
+//   &__container {
+//     padding-top: 100px;
+
+//     @media screen and (min-width: 768px) {
+//       padding-top: 0;
+//     }
+
+//     &::before {
+//       content: '';
+//       background-color: $light-blue;
+//       height: 50px;
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       width: 100%;
+//     }
+//   }
+
+//   &__decor {
+//     background: url('../../assets/img/speakers-decor.svg');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     position: absolute;
+//     top: -50px;
+//     height: 200px;
+//     right: 15%;
+//     width: 200px;
+//     z-index: 2;
+//   }
+// }
+
+.speakers {
+  margin-block: 40px;
+
+  &__title {
+    font-size: 36px;
+    line-height: 41px;
+    font-weight: 700;
+    text-align: left;
+    padding-inline-start: 20px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 64px;
+      line-height: 74px;
+      padding-inline-start: 175px;
+    }
+
+    &-container {
+      width: 90%;
+      color: $white;
+      background-color: #ff676a;
+      border-radius: 0 16px 16px 0;
+      box-shadow: 0px 4px 12px 2px #00000040;
+      padding-block: 20px;
+    }
+  }
+
+  &__description {
+    font-size: 36px;
+    line-height: 41px;
+    font-weight: 700;
+    text-align: left;
+    color: #000;
+
+    @media screen and (min-width: 768px) {
+      font-size: 64px;
+      line-height: 74px;
+    }
+  }
+
+  &__cfp-date {
+    color: #ff676a;
   }
 
   &__container {
-    padding-top: 100px;
+    margin: 13px 18px;
 
-    @media screen and (min-width: $viewport-md) {
-      padding-top: 0;
-    }
-
-    &::before {
-      content: '';
-      background-color: $light-blue;
-      height: 50px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin: 110px 181px;
     }
   }
 
-  &__decor {
-    background: url('../../assets/img/speakers-decor.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -50px;
-    height: 200px;
-    right: 15%;
-    width: 200px;
-    z-index: 2;
+  &__cfp-button {
+    width: 100%;
+    color: $white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+    background: #54a6ec;
+    box-shadow: 4px 4px 0px 0px #202124;
+    height: fit-content;
+
+    @media screen and (min-width: 768px) {
+      flex-shrink: 0;
+      width: 455px;
+    }
   }
 }
