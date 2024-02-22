@@ -1,22 +1,19 @@
 import './about.scss'
-import lightBuld from '../../assets/old/img/about-decor.svg'
 
 export default function About() {
-  const aboutText =
-    "El Día Internacional de la Mujer, que se celebra anualmente en marzo, es un momento reconocido mundialmente para celebrar los logros de las mujeres y crear conciencia sobre las cuestiones que afectan la igualdad de género. Este Día Internacional de la Mujer, no solo honramos las contribuciones tecnológicas de las mujeres; Estamos dando forma activamente a lo que viene a continuación. Únete a el tema de este año, 'Impactar el futuro', con una variedad de eventos que invitan a la reflexión, todos diseñados para inspirarte y desafiarte."
   return (
     <section className="about">
-      <div>
-        <img src={lightBuld} />
-      </div>
       <div className="about__text-container">
-        <h2 className="about__title">Sobre el evento</h2>
-        <p className="about__text">{aboutText}</p>
+        <h2 className="about__title">Sobre el <span className="about__evento">Evento</span></h2>
+        <p className="about__text">
+          El Día Internacional de la Mujer, que se celebra anualmente en marzo, es un momento reconocido mundialmente para celebrar los logros de las mujeres y crear conciencia sobre las cuestiones que afectan la igualdad de género. Este Día Internacional de la Mujer, no solo honramos las contribuciones tecnológicas de las mujeres, estamos dando forma activamente a lo que viene a continuación. Únete al tema de este año, <span className="about__slogan">'Impactar el futuro'</span>, con una variedad de eventos que invitan a la reflexión, todos diseñados para inspirarte y desafiarte.
+        </p>
         <a
-          href="https://developers.google.com/womentechmakers/initiatives/iwd"
+          href="https://developers.google.com/womentechmakers?hl=es-419"
+          className="about__link"
           target="_blank"
         >
-          Mas información
+          womentechmakers.com
         </a>
       </div>
     </section>
