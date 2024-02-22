@@ -1,11 +1,6 @@
 @import '../../styles/variables';
 
 .about {
-  align-items: center;
-  display: flex;
-  flex-direction: column-reverse;
-  padding-top: 100px;
-  position: relative;
 
   &__text {
     padding-bottom: 20px;
@@ -17,20 +12,26 @@
   }
 
   &__evento {
-    color: #00daa1;
+    color: $caribbean-green;
   }
 
   &__slogan {
     font-weight: 600;
-    color: #ff676a;
+    color: $bittersweet;
   }
 
   @media screen and (min-width: $viewport-md) {
-    display: grid;
     padding-top: 0;
 
     &__text-container {
-      padding: 70px 100px;
+      padding: 83px 176px;
+    }
+  }
+
+  /* Mobile-specific styles (screens smaller than $viewport-md) */
+  @media screen and (max-width: $viewport-md) {
+    &__text-container {
+      padding: 14px;
     }
   }
 }
