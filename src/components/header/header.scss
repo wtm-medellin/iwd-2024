@@ -1,53 +1,53 @@
 @import '../../styles/variables';
 
-$header-btn-border-radius: 10px;
-
 .header {
-  padding-top: 70px;
+  $color-text: #0000;
+  $color-subTitle: #ff676a;
+  $imagen-fondo: url('../../assets/Hero/Hero.png');
+  .mi-seccion {
+    position: relative; // Permite que los elementos hijos se posicionen relativos a este contenedor
 
-  &__btn {
-    background-color: $dark-blue;
-    border-radius: $header-btn-border-radius;
-    color: $black;
-    display: inline-block;
-    font-weight: 700;
-    padding: 10px 15px;
-    text-decoration: none;
-
-    &-container {
-      cursor: pointer;
-      margin-top: 20px;
-      position: relative;
-      width: fit-content;
-
-      &::after {
-        content: '';
-        border-radius: $header-btn-border-radius;
-        border: 1px solid $black;
-        height: 100%;
-        position: absolute;
-        top: 5px;
-        right: -5px;
-        transition: all 0.2s ease-in;
-        width: 100%;
-      }
-
-      &:hover::after {
-        border-width: 2px;
-        transform: translate(-10px, -10px);
-        z-index: -1;
-      }
+    .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: $imagen-fondo;
+      background-size: cover; // Ajusta la imagen para cubrir completamente el contenedor
+      background-position: center; // Centra la imagen
+      opacity: 0.5; // Ajusta la opacidad según tus preferencias
+      z-index: -1; // Coloca la imagen de fondo detrás de los otros elementos
     }
   }
 
-  &__container {
-    align-items: center;
-    display: grid;
-    height: 100vh;
-    margin-top: 75px;
-    min-height: 800px;
-    position: relative;
+  // .container-img {
+  //   padding: 20px;
+  //   border-radius: 8px;
+  //   top: 10px;
 
+  //   .logo {
+  //     width: 20px;
+  //     height: 10px;
+  //   }
+
+  //   h1 {
+  //     color: $color-text;
+  //     font-size: 35px;
+  //     margin-bottom: 10px;
+  //   }
+  //   h2 {
+  //     color: $color-subTitle;
+  //     font-size: 20px;
+  //   }
+
+  //   p {
+  //     color: $color-text;
+  //     font-size: 16px;
+  //   }
+  // }
+
+  &__container {
     @media screen and (min-width: 768px) {
       grid-template-columns: 1fr 1fr;
       min-height: 650px;
