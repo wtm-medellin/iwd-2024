@@ -4,13 +4,31 @@
   margin-block-start: 40px;
   margin-block-end: 60px;
 
+  &__icon {
+    background: url('../../assets/img/speakers-decor.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 1px;
+    bottom: 11px;
+    height: 160.78px;
+    position: absolute;
+    width: 96.47px;
+
+    @media screen and (min-width: 768px) {
+      bottom: -35px;
+      height: 298.58px;
+      right: -10px;
+      width: 176.44px;
+    }
+  }
+
   &__title {
     font-size: 36px;
-    line-height: 41px;
     font-weight: 700;
-    text-align: left;
-    padding-inline-start: 20px;
+    line-height: 41px;
     margin-bottom: 0;
+    padding-inline-start: 20px;
+    text-align: left;
 
     @media screen and (min-width: 768px) {
       font-size: 64px;
@@ -19,22 +37,28 @@
     }
 
     &-container {
-      width: 88%;
-      color: $white;
       background-color: #ff676a;
       border-radius: 0 16px 16px 0;
       box-shadow: 0px 4px 12px 2px #00000040;
-      padding-block: 30px;
+      color: $white;
+      padding-block: 25px;
+      position: relative;
+      width: 88%;
+
+      @media screen and (min-width: 768px) {
+        padding-block: 38px;
+        margin-block-end: 50px;
+      }
     }
   }
 
   &__description {
-    font-size: 36px;
-    line-height: 41px;
-    font-weight: 700;
-    text-align: left;
     color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
     margin-block: 30px;
+    text-align: left;
 
     @media screen and (min-width: 768px) {
       font-size: 64px;
@@ -47,18 +71,19 @@
   }
 
   &__container {
-    max-width: 1440px;
     margin: 13px 18px;
+    max-width: 1440px;
 
     @media screen and (min-width: 1140px) {
-      display: flex;
       align-items: center;
-      gap: 30px;
-      margin: 110px 176px 110px 181px;
+      display: flex;
+      gap: 24px;
+      margin: 76px 176px 110px 181px;
     }
   }
 
   &__cfp-button {
+    display: inline-block;
     width: 100%;
 
     @media screen and (min-width: 768px) {
