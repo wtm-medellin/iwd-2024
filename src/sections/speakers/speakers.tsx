@@ -19,9 +19,13 @@ export default function Speakers() {
           {SECTION.DESCRIPTION}{' '}
           <span className="speakers__cfp-date">{SECTION.DATE}</span>
         </p>
-        <button className="speakers__cfp-button">
+        <a
+          className="speakers__cfp-button anchor__link"
+          href="https://sessionize.com/iwd-medellin-2024/"
+          target="_blank"
+        >
           {SECTION.CFP_BUTTON_TEXT}
-        </button>
+        </a>
       </div>
     </section>
   )
