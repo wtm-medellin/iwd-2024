@@ -4,7 +4,7 @@ import './sponsors.scss'
 
 export default function Sponsors() {
   return (
-    <section className="sponsors">
+    <section className="sponsors" id="sponsors">
       <div className="sponsors__container">
         <SectionTitle
           text="Patrocinadores"

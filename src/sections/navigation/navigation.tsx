@@ -35,7 +35,7 @@ export default function Navigation() {
       <ul className={`navigation__list ${isOpen ? 'is-open' : ''}`}>
         <li className="navigation__item">
           <Link to="/about" onClick={scrollToSection('#about')}>
-            About
+            Sobre el evento
           </Link>
         </li>
         <li className="navigation__item">
@@ -44,8 +44,13 @@ export default function Navigation() {
           </Link>
         </li>
         <li className="navigation__item">
+          <Link to="/" onClick={scrollToSection('#communities')}>
+            Comunidades
+          </Link>
+        </li>
+        <li className="navigation__item">
           <Link to="/" onClick={scrollToSection('#sponsors')}>
-            Sponsors
+            Patrocinadores
           </Link>
         </li>
       </ul>

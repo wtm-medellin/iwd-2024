@@ -11,7 +11,7 @@ export default function Communities() {
   ]
 
   return (
-    <section className="communities">
+    <section className="communities" id="communities">
       <h2 className="communities__title">Comunidades</h2>
       <ul className="communities__list">
         {communities.map((element) => {

@@ -7,7 +7,7 @@ type ctaProps = {
 
 export default function Cta(props: ctaProps) {
   return (
-    <a className="cta" href={props.url}>
+    <a className="cta" href={props.url} target="blank">
       {props.text}
     </a>
   )

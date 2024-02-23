@@ -1,30 +1,26 @@
 import './header.scss'
-import headerImage from '../../assets/old/img/header-img.svg'
+import wtmLogo from '../../assets/wtm-logo-bw.svg'
+import Cta from '../../components/cta/cta'
 
 export default function Header() {
   return (
-    <header className="header__container">
-      <div className="header__text header__section">
-        <h1 className="header__title">Impact the Future</h1>
-        <h2 className="header__subtitle">Día internacional de la mujer 2024</h2>
-        <p className="header__date">Abril 13, 2024</p>
-        <p className="header__location">
-          Auditorio fundadores, Universidad EAFIT
+    <section className="header">
+      <img className="header__logo" src={wtmLogo} />
+      <div className="header__text-container">
+        <h1 className="header__title">
+          #ImpactTheFuture
+          <br /> Día Internacional de la Mujer
+        </h1>
+        <h2 className="header__subtitle">Postula tu charla.</h2>
+        <p className="header__details">
+          Abril 13, 2024
+          <br /> Medellín, Colombia
         </p>
-        <div className="header__btn-container">
-          <a
-            href="https://sessionize.com/iwd-medellin-2024/"
-            target="_blank"
-            rel="noreferrer"
-            className="header__btn"
-          >
-            Envía tu propuesta de charla
-          </a>
-        </div>
+        <Cta
+          text="Registrate"
+          url="https://gdg.community.dev/events/details/google-gdg-medellin-presents-international-womens-day-2024/"
+        />
       </div>
-      <div className="header__image header__section">
-        <img src={headerImage} aria-hidden />
-      </div>
-    </header>
+    </section>
   )
 }

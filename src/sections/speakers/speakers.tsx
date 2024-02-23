@@ -10,7 +10,7 @@ const SECTION = {
 
 export default function Speakers() {
   return (
-    <section className="speakers">
+    <section className="speakers" id="speakers">
       <div className="speakers__title-container">
         <h2 className="speakers__title">{SECTION.TITLE}</h2>
         <div className="speakers__icon"></div>
