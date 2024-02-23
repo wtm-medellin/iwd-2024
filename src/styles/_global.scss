@@ -29,3 +29,16 @@ a {
   text-decoration-color: $black;
   text-decoration-thickness: 2px;
 }
+
+button {
+  color: $white;
+  cursor: pointer;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 4px;
+  background: #54A6EC;
+  box-shadow: 4px 4px 0px 0px #202124;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+}
