@@ -1,4 +1,5 @@
 import './speakers.scss'
+import Cta from '../../components/cta/cta'
 
 const SECTION = {
   TITLE: 'Speakers',
@@ -19,13 +20,10 @@ export default function Speakers() {
           {SECTION.DESCRIPTION}{' '}
           <span className="speakers__cfp-date">{SECTION.DATE}</span>
         </p>
-        <a
-          className="speakers__cfp-button anchor__link"
-          href="https://sessionize.com/iwd-medellin-2024/"
-          target="_blank"
-        >
-          {SECTION.CFP_BUTTON_TEXT}
-        </a>
+        <Cta
+          text={SECTION.CFP_BUTTON_TEXT}
+          url="https://sessionize.com/iwd-medellin-2024/"
+        />
       </div>
     </section>
   )

@@ -1,25 +1,25 @@
 @import '../../styles/variables';
+
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 10rem;
-  padding-block: 1.5rem;
+  padding: 25px 160px;
   position: relative;
-  background-color: $teal;
+  background-color: $caribbean-green;
   box-shadow: 0 1px 5px #878787;
 
-  @media (max-width: 768px) {
-    padding-inline: 1rem;
-    justify-content: flex-end;
+  @media (max-width: $viewport-md) {
     background-color: transparent;
     box-shadow: none;
+    justify-content: flex-end;
+    padding: 24px;
   }
 
   &__logo {
-    width: 150px;
+    width: 58px;
 
-    @media (max-width: 768px) {
+    @media (max-width: $viewport-md) {
       display: none;
     }
   }
@@ -28,7 +28,7 @@
     display: none;
     cursor: pointer;
 
-    @media (max-width: 768px) {
+    @media (max-width: $viewport-md) {
       display: block;
       padding: 0;
     }
@@ -38,7 +38,7 @@
     display: flex;
     gap: 1rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: $viewport-md) {
       flex-direction: column;
       position: absolute;
       top: 100%;
@@ -54,7 +54,11 @@
   }
 
   &__item {
-    @media (max-width: 768px) {
+    a {
+      text-decoration: none;
+    }
+
+    @media (max-width: $viewport-md) {
       width: 100%;
       text-align: center;
       padding: 1rem 0;
