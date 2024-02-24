@@ -3,32 +3,34 @@
 .communities {
   background-color: $black;
   color: $white;
-  padding: 50px 0;
+  padding: 35px 0;
+
+  @media screen and (min-width: $viewport-md) {
+    padding: 55px 0;
+  }
 
   &__title {
-    position: relative;
+    text-align: center;
   }
 
   &__list {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 170px;
     align-items: center;
-    flex-wrap: wrap;
-  }
+    justify-content: center;
+    justify-items: center;
+    gap: 44px;
+    margin-top: 30px;
 
-  &__item {
-    margin: 10px 20px;
-    width: 140px;
-  }
+    @media screen and (min-width: $viewport-md) {
+      gap: 70px;
+      grid-template-columns: 170px 170px;
+      grid-template-rows: auto;
+      margin-top: 40px;
+    }
 
-  &__decor {
-    position: absolute;
-    top: -130px;
-    right: 10%;
-    width: 150px;
-  }
-
-  &__section {
-    margin: 50px;
+    @media screen and (min-width: $viewport-lg) {
+      grid-template-columns: 170px 170px 170px;
+    }
   }
 }
