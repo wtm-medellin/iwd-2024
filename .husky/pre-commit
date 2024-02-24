@@ -1,1 +1,2 @@
 npx mrm lint-staged
+npx lint-staged

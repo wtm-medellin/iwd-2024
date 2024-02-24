@@ -1,23 +1,38 @@
 import './navigation.scss'
-import WTMLogo from '../../assets/img/wtm-logo.svg'
+import WTMLogo from '../../assets/img/WTMLogo.svg'
+import MenuLogo from '../../assets/img/menu.svg'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 export default function Navigation() {
-  const scrollToSection = (sectionId: string) => {
-    return (event: React.MouseEvent) => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const scrollToSection =
+    (sectionId: string) => (event: { preventDefault: () => void }) => {
       event.preventDefault()
       const section = document.querySelector(sectionId)
       if (section) {
         section.scrollIntoView({ behavior: 'smooth', block: 'start' })
       }
     }
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen)
   }
+
   return (
     <nav className="navigation">
       <div className="navigation__logo">
-        <img src={WTMLogo} />
+        <img src={WTMLogo} alt="WTM Logo" />
       </div>
-      <ul className="navigation__list">
+      <div
+        className={`navigation__toggle ${isOpen ? 'is-active' : ''}`}
+        onClick={toggleMenu}
+      >
+        <img className="hamburger-icon" src={MenuLogo} alt="Menu icon" />
+      </div>
+
+      <ul className={`navigation__list ${isOpen ? 'is-open' : ''}`}>
         <li className="navigation__item">
           <Link to="/about" onClick={scrollToSection('#about')}>
             About
@@ -33,9 +48,6 @@ export default function Navigation() {
             Sponsors
           </Link>
         </li>
-        {/* <li className="navigation__item">
-          <Link to="/" onClick={scrollToSection('#team')}>Equipo</Link>
-        </li> */}
       </ul>
     </nav>
   )
