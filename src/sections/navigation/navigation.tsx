@@ -1,6 +1,6 @@
 import './navigation.scss'
-import WTMLogo from '../../assets/img/WTMLogo.svg'
-import MenuLogo from '../../assets/img/menu.svg'
+import WTMLogo from '../../assets/old/img/WTMLogo.svg'
+import MenuLogo from '../../assets/old/img/menu.svg'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -26,25 +26,25 @@ export default function Navigation() {
         <img src={WTMLogo} alt="WTM Logo" />
       </div>
       <div
-        className={`navigation__toggle ${isOpen ? "is-active" : ""}`}
+        className={`navigation__toggle ${isOpen ? 'is-active' : ''}`}
         onClick={toggleMenu}
       >
         <img className="hamburger-icon" src={MenuLogo} alt="Menu icon" />
       </div>
 
-      <ul className={`navigation__list ${isOpen ? "is-open" : ""}`}>
+      <ul className={`navigation__list ${isOpen ? 'is-open' : ''}`}>
         <li className="navigation__item">
-          <Link to="/about" onClick={scrollToSection("#about")}>
+          <Link to="/about" onClick={scrollToSection('#about')}>
             About
           </Link>
         </li>
         <li className="navigation__item">
-          <Link to="/" onClick={scrollToSection("#speakers")}>
+          <Link to="/" onClick={scrollToSection('#speakers')}>
             Speakers
           </Link>
         </li>
         <li className="navigation__item">
-          <Link to="/" onClick={scrollToSection("#sponsors")}>
+          <Link to="/" onClick={scrollToSection('#sponsors')}>
             Sponsors
           </Link>
         </li>
