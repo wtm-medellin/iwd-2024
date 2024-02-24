@@ -1,7 +1,31 @@
+@import '../../styles/variables';
+
 .footer {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 70px;
-  padding: 10px 50px;
+  &__content {
+    background-color: $dodger-blue;
+    color: $white;
+    padding: 35px 0;
+    text-align: center;
+  }
+
+  &__decor-image {
+    display: block;
+    margin: 35px auto;
+    width: 127px;
+
+    @media screen and (min-width: $viewport-md) {
+      margin: 58px auto;
+    }
+  }
+
+  &__social {
+    &-item {
+      display: inline-block;
+      margin: 5px;
+    }
+
+    &-logo {
+      width: 30px;
+    }
+  }
 }
