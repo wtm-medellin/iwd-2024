@@ -20,6 +20,33 @@ export default function Navigation() {
     setIsOpen(!isOpen)
   }
 
+  const navItems = [
+    {
+      text: 'Registro',
+      url: 'https://gdg.community.dev/events/details/google-gdg-medellin-presents-international-womens-day-2024/',
+    },
+    {
+      text: 'Sobre el evento',
+      url: '/',
+      id: '#about',
+    },
+    {
+      text: 'Speakers',
+      url: '/',
+      id: '#speakers',
+    },
+    {
+      text: 'Comunidades',
+      url: '/',
+      id: '#communities',
+    },
+    {
+      text: 'Patrocinadores',
+      url: '/',
+      id: '#sponsors',
+    },
+  ]
+
   return (
     <nav className="navigation">
       <div className="navigation__logo">
@@ -33,26 +60,18 @@ export default function Navigation() {
       </div>
 
       <ul className={`navigation__list ${isOpen ? 'is-open' : ''}`}>
-        <li className="navigation__item">
-          <Link to="/about" onClick={scrollToSection('#about')}>
-            Sobre el evento
-          </Link>
-        </li>
-        <li className="navigation__item">
-          <Link to="/" onClick={scrollToSection('#speakers')}>
-            Speakers
-          </Link>
-        </li>
-        <li className="navigation__item">
-          <Link to="/" onClick={scrollToSection('#communities')}>
-            Comunidades
-          </Link>
-        </li>
-        <li className="navigation__item">
-          <Link to="/" onClick={scrollToSection('#sponsors')}>
-            Patrocinadores
-          </Link>
-        </li>
+        {navItems.map((element) => {
+          return (
+            <li className="navigation__item">
+              <Link
+                to={element.url}
+                onClick={element.id ? scrollToSection(element.id) : undefined}
+              >
+                {element.text}
+              </Link>
+            </li>
+          )
+        })}
       </ul>
     </nav>
   )

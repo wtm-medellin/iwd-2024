@@ -6,30 +6,33 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  min-height: 800px;
+  min-height: 780px;
   padding: 80px 20px 20px 20px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: flex-start;
 
   @media screen and (min-width: $viewport-md) {
     background-image: url('../../assets/backgrounds/header-bg.png');
+    justify-content: center;
+    min-height: 700px;
     padding: 60px;
   }
 
   &__title,
   &__subtitle {
-    font-size: 38px;
+    font-size: 34px;
     font-weight: 700;
-    text-wrap: wrap;
-    overflow-wrap: break-word;
 
     @media screen and (min-width: $viewport-md) {
-      font-size: 52px;
+      font-size: 42px;
     }
 
-    @media screen and (min-width: $viewport-md) {
-      font-size: 62px;
+    @media screen and (min-width: $viewport-lg) {
+      font-size: 54px;
+    }
+    @media screen and (min-width: $viewport-xl) {
+      font-size: 64px;
     }
   }
 
@@ -38,7 +41,7 @@
   }
 
   &__text-container {
-    @media screen and (min-width: $viewport-lg) {
+    @media screen and (min-width: $viewport-md) {
       width: 60%;
     }
     @media screen and (min-width: $viewport-xl) {
@@ -47,14 +50,20 @@
   }
 
   &__details {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 40px;
+
+    @media screen and (min-width: $viewport-md) {
+      font-size: 20px;
+    }
   }
 
   &__logo {
-    width: 200px;
+    margin-bottom: 24px;
+    width: 330px;
 
     @media screen and (min-width: $viewport-md) {
+      margin-bottom: 74px;
       width: 396px;
     }
   }

@@ -1,6 +1,5 @@
 import './header.scss'
 import wtmLogo from '../../assets/wtm-logo-bw.svg'
-import Cta from '../../components/cta/cta'
 
 export default function Header() {
   return (
@@ -16,10 +15,6 @@ export default function Header() {
           Abril 13, 2024
           <br /> Medellín, Colombia
         </p>
-        <Cta
-          text="Registrate"
-          url="https://gdg.community.dev/events/details/google-gdg-medellin-presents-international-womens-day-2024/"
-        />
       </div>
     </section>
   )
