@@ -7,14 +7,14 @@ import { useState } from 'react'
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const scrollToSection =
-    (sectionId: string) => (event: { preventDefault: () => void }) => {
-      event.preventDefault()
-      const section = document.querySelector(sectionId)
+  function scrollToSection(elementId: string) {
+    setTimeout(() => {
+      const section = document.querySelector(elementId)
       if (section) {
         section.scrollIntoView({ behavior: 'smooth', block: 'start' })
       }
-    }
+    }, 0)
+  }
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
@@ -45,6 +45,10 @@ export default function Navigation() {
       url: '/',
       id: '#sponsors',
     },
+    {
+      text: 'Equipo',
+      url: '/equipo',
+    },
   ]
 
   return (
@@ -60,12 +64,14 @@ export default function Navigation() {
       </div>
 
       <ul className={`navigation__list ${isOpen ? 'is-open' : ''}`}>
-        {navItems.map((element) => {
+        {navItems.map((element, index) => {
           return (
-            <li className="navigation__item">
+            <li className="navigation__item" key={index}>
               <Link
                 to={element.url}
-                onClick={element.id ? scrollToSection(element.id) : undefined}
+                onClick={
+                  element.id ? () => scrollToSection(element.id) : undefined
+                }
               >
                 {element.text}
               </Link>

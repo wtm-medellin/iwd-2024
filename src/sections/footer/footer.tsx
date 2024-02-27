@@ -22,14 +22,14 @@ export default function Footer() {
         <p>WTM Medellin 2024</p>
         <div className="footer__social">
           <ul>
-            {socialLinks.map((social) => {
+            {socialLinks.map((social, index) => {
               const image = new URL(
                 `../../assets/social/${social.name}.svg`,
                 import.meta.url
               ).href
 
               return (
-                <li className="footer__social-item">
+                <li className="footer__social-item" key={index}>
                   <a href={social.link} target="blank">
                     <img className="footer__social-logo" src={image} />
                   </a>

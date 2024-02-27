@@ -14,14 +14,14 @@ export default function Communities() {
     <section className="communities" id="communities">
       <h2 className="communities__title">Comunidades</h2>
       <ul className="communities__list">
-        {communities.map((element) => {
+        {communities.map((element, index) => {
           const image = new URL(
             `../../assets/communities/${element}.svg`,
             import.meta.url
           ).href
 
           return (
-            <li>
+            <li key={index}>
               <img src={image} />
             </li>
           )
