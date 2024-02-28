@@ -27,6 +27,37 @@ const team = [
       },
     ],
   },
+  {
+    name: 'Valen Ariza',
+    description:
+      'Ingeniera de datos y líder Técnica Especialista en IoT, Co-Founder de la coumnidad DKnowHer y voluntaria en Pyladies Medellin.',
+    picture: '',
+    social: [
+      {
+        name: 'instagram',
+        url: '',
+      },
+      {
+        name: 'x',
+        url: '',
+      },
+    ],
+  },
+  {
+    name: 'Carolina Castañeda',
+    description: '',
+    picture: '',
+    social: [
+      {
+        name: 'instagram',
+        url: '',
+      },
+      {
+        name: 'x',
+        url: '',
+      },
+    ],
+  },
 ]
 
 export default team
