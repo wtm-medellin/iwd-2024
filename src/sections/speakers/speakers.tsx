@@ -4,7 +4,7 @@ import Cta from '../../components/cta/cta'
 const SECTION = {
   TITLE: 'Speakers',
   DESCRIPTION: 'Envía tu propuesta de charla antes del',
-  DATE: '27 de Febrero',
+  DATE: '8 de Marzo',
   CFP_BUTTON_TEXT: 'Call For Speakers',
 }
 
