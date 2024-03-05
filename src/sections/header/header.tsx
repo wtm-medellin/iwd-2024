@@ -10,7 +10,7 @@ export default function Header() {
           #ImpactTheFuture
           <br /> Día Internacional de la Mujer
         </h1>
-        <h2 className="header__subtitle">Postula tu charla.</h2>
+        <h2 className="header__subtitle">Únete.</h2>
         <p className="header__details">
           Abril 13, 2024
           <br /> Medellín, Colombia
