@@ -78,11 +78,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: '',
-      },
-      {
-        name: 'x',
-        url: '',
+        url: 'https://www.instagram.com/darkins?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       },
     ],
   },
@@ -94,11 +90,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: '',
-      },
-      {
-        name: 'x',
-        url: '',
+        url: 'https://www.instagram.com/marianvilla?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       },
     ],
   },
@@ -126,11 +118,11 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: '',
+        url: 'https://www.instagram.com/verordgz/',
       },
       {
-        name: 'Linkedin',
-        url: '',
+        name: 'x',
+        url: 'https://twitter.com/verordgz',
       },
     ],
   },
@@ -142,11 +134,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: '',
-      },
-      {
-        name: 'Linkedin',
-        url: '',
+        url: 'https://www.instagram.com/elizarangelm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       },
     ],
   },
@@ -197,15 +185,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: '',
-      },
-      {
-        name: 'Linkedin',
-        url: '',
-      },
-      {
-        name: 'x',
-        url: '',
+        url: 'https://www.instagram.com/jenni.alopez?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       },
     ],
   },
@@ -231,11 +211,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: '',
-      },
-      {
-        name: 'Linkedin',
-        url: '',
+        url: 'https://www.instagram.com/satencioh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       },
     ],
   },
@@ -286,8 +262,8 @@ const team = [
     picture: 'Manu-Castrillon.png',
     social: [
       {
-        name: 'Linkedin',
-        url: '',
+        name: 'instagram',
+        url: 'https://www.instagram.com/manucastrillonm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       },
     ],
   },
@@ -298,7 +274,7 @@ const team = [
     picture: 'Alejandra-Henao.jpg',
     social: [
       {
-        name: 'Instagram',
+        name: 'instagram',
         url: 'https://www.instagram.com/alejahenaoe',
       },
       {
@@ -314,12 +290,8 @@ const team = [
     picture: 'Ana-Sosa.jpeg',
     social: [
       {
-        name: 'Instagram',
-        url: '',
-      },
-      {
-        name: 'Linkedin',
-        url: '',
+        name: 'instagram',
+        url: 'https://www.instagram.com/anamariasosam?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       },
     ],
   },
@@ -333,12 +305,37 @@ const team = [
         url: 'https://twitter.com/NotionFlows',
       },
       {
-        name: 'Instagram',
+        name: 'instagram',
         url: 'https://www.instagram.com/notionflows/',
+      },
+    ],
+  },
+  {
+    name: 'Andrés Quintero',
+    description:
+      'Soñador y apasionado por todo lo que hago. Co-fundador de Web3ForU, Co-organizador de Google Developers Group y Desarrollador de Backend e Inteligencia Artificial.',
+    picture: 'Andres-Quintero.jpeg',
+    social: [
+      {
+        name: 'instagram',
+        url: 'https://www.instagram.com/dres.dev/',
+      },
+    ],
+  },
+  {
+    name: 'Luis SInisterra',
+    description:
+      'Ingeniero de Software con +8 años de experiencia en el desarrollo de aplicaciones web usando JavaScript, React JS y Node JS,Lider del google developer group de medellín, Co-fundador de Digital diaspora.',
+    picture: 'Luis-Sinisterra.jpeg',
+    social: [
+      {
+        name: 'instagram',
+        url: 'https://www.instagram.com/lam_jesus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       },
     ],
   },
 ]
 
 export default team
+
 
