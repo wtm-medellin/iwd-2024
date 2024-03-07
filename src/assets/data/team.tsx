@@ -180,7 +180,8 @@ const team = [
   },
   {
     name: 'Jennifer Castañeda',
-    description: '',
+    description:
+      'Ingeniera Industrial con énfasis en Análisis de datos, actualmente Analista de Business Intelligence con más de 3 años de experiencia en el sector Fintech y de consultoría. Parte del equipo organizador de WiDS Medellín 2023 Ambassador y Tech Community.',
     picture: 'Jennife-Castañeda.jpg',
     social: [
       {
@@ -191,7 +192,8 @@ const team = [
   },
   {
     name: 'Valentina Pinzón',
-    description: '',
+    description:
+      'Soy Valentina Pinzón, desarrolladora de Software, amante de la tecnologia. Lider de la comunidad Google Developers Group Medellín, Pioneras Dev y Tech Community. Me apasiona compartir mis conocimientos y experiencias, siempre dispuesta a brindar apoyo y construir comunidad.',
     picture: 'Valen-pinzon.JPG',
     social: [
       {
@@ -206,7 +208,8 @@ const team = [
   },
   {
     name: 'Sandy Atencio',
-    description: '',
+    description:
+      'Ingeniera de Datos con +2 años de experiencia en el sector bancario y de consultoría  con habilidades en desarollo e implementaicion de ETLs, Cloud, ML y Visualizacion. Women Techmaker Ambassadors desde 2023.',
     picture: 'Sandy-Atencio.JPG',
     social: [
       {
@@ -406,4 +409,5 @@ const team = [
 ]
 
 export default team
+
 
