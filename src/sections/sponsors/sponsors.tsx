@@ -37,7 +37,7 @@ export default function Sponsors() {
 
                 return (
                   <li>
-                    <img src={image} alt='' />
+                    <img src={image} alt=`${element} logo` />
                   </li>
                 )
               }
