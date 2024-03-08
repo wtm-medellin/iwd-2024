@@ -12,7 +12,6 @@ export default function Sponsors() {
     'comfama',
     'intellias',
     'github',
-    'gap',
     'dcaballero',
     'notion',
     'bdg',
