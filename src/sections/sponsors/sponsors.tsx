@@ -26,7 +26,7 @@ export default function Sponsors() {
           style="blue"
           assetName="badge-vector"
         />
-        <div className='floating-sponsors'>
+        <div>
           <ul className='sponsors__list'>
             {
               sponsors.map((element) => {
