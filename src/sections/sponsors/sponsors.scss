@@ -3,16 +3,19 @@
 .sponsors {
   margin-bottom: 130px;
 
-  &__container {
+  &__title-container {
     padding-left: 5%;
   }
 
   &__content {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+    padding: 0 10px;
     gap: 30px;
 
     @media screen and (min-width: $viewport-md) {
+      padding: 0 30px;
       flex-direction: row;
     }
   }
@@ -30,7 +33,7 @@
       flex-basis: 50%;
     }
   }
-  //list de sponsors
+
   &__list {
     display: grid;
     grid-template-columns: 170px;
@@ -43,13 +46,14 @@
 
     @media screen and (min-width: $viewport-md) {
       gap: 45px;
-      grid-template-columns: 170px 170px;
+      grid-template-columns: repeat(2, 170px);
       grid-template-rows: auto;
       margin-top: 40px;
+      margin-bottom: 60px;
     }
 
     @media screen and (min-width: $viewport-lg) {
-      grid-template-columns: 250px 250px 250px 250px;
+      grid-template-columns: repeat(4, 200px);
     }
   }
 }

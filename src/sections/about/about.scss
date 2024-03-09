@@ -10,7 +10,7 @@
     text-decoration: underline;
   }
 
-  &__evento {
+  &__event {
     color: $caribbean-green;
   }
 
@@ -19,18 +19,15 @@
     color: $bittersweet;
   }
 
+  &__text-container {
+    padding: 14px;
+  }
+
   @media screen and (min-width: $viewport-md) {
     padding-top: 0;
 
     &__text-container {
       padding: 83px 176px;
-    }
-  }
-
-  /* Mobile-specific styles (screens smaller than $viewport-md) */
-  @media screen and (max-width: $viewport-md) {
-    &__text-container {
-      padding: 14px;
     }
   }
 }

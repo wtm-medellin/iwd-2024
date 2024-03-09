@@ -20,32 +20,28 @@ export default function Sponsors() {
   return (
     <section className="sponsors" id="sponsors">
       <div className="sponsors__container">
-        <SectionTitle
-          text="Patrocinadores"
-          direction="right"
-          style="blue"
-          assetName="badge-vector"
-        />
-        <div>
-          <ul className='sponsors__list'>
-            {
-              sponsors.map((element) => {
-                const image = new URL(
-                  `../../assets/logos-sponsors/${element}.png`,
-                  import.meta.url
-                ).href
-
-                return (
-                  <li>
-                    <img src={image} alt={{ element } + 'logo'} />
-                  </li>
-                )
-              }
-              )
-            }
-          </ul>
+        <div className="sponsors__title-container">
+          <SectionTitle
+            text="Patrocinadores"
+            direction="right"
+            style="blue"
+            assetName="badge-vector"
+          />
         </div>
+        <ul className="sponsors__list">
+          {sponsors.map((element, index) => {
+            const image = new URL(
+              `../../assets/logos-sponsors/${element}.png`,
+              import.meta.url
+            ).href
 
+            return (
+              <li key={index}>
+                <img src={image} alt={{ element } + 'logo'} />
+              </li>
+            )
+          })}
+        </ul>
 
         <div className="sponsors__content">
           <div className="sponsors__text">

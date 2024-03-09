@@ -5,7 +5,7 @@ export default function About() {
     <section className="about" id="about">
       <div className="about__text-container">
         <h2 className="about__title">
-          Sobre el <span className="about__evento">Evento</span>
+          Sobre el <span className="about__event">Evento</span>
         </h2>
         <p className="about__text">
           El Día Internacional de la Mujer, que se celebra anualmente en marzo,

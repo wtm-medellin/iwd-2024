@@ -4,52 +4,8 @@
   margin-block-start: 40px;
   margin-block-end: 60px;
 
-  &__icon {
-    background: url('../../assets/illustrations/mic-vector.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    right: 1px;
-    bottom: 11px;
-    height: 160.78px;
-    position: absolute;
-    width: 96.47px;
-
-    @media screen and (min-width: 768px) {
-      bottom: -35px;
-      height: 298.58px;
-      right: -10px;
-      width: 176.44px;
-    }
-  }
-
-  &__title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 41px;
-    margin-bottom: 0;
-    padding-inline-start: 20px;
-    text-align: left;
-
-    @media screen and (min-width: 768px) {
-      font-size: 64px;
-      line-height: 74px;
-      padding-inline-start: 175px;
-    }
-
-    &-container {
-      background-color: #ff676a;
-      border-radius: 0 16px 16px 0;
-      box-shadow: 0px 4px 12px 2px #00000040;
-      color: $white;
-      padding-block: 25px;
-      position: relative;
-      width: 88%;
-
-      @media screen and (min-width: 768px) {
-        padding-block: 38px;
-        margin-block-end: 50px;
-      }
-    }
+  &__title-container {
+    padding-right: 5%;
   }
 
   &__description {
@@ -60,7 +16,7 @@
     margin-block: 30px;
     text-align: left;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       font-size: 64px;
       line-height: 74px;
     }
@@ -70,7 +26,7 @@
     margin: 13px 18px;
     max-width: 1440px;
 
-    @media screen and (min-width: 1140px) {
+    @media screen and (min-width: $viewport-lg) {
       align-items: center;
       display: flex;
       gap: 24px;
@@ -82,7 +38,7 @@
     display: inline-block;
     width: 100%;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $viewport-md) {
       flex-shrink: 0;
       width: 455px;
     }
