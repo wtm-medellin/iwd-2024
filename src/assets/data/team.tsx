@@ -46,7 +46,7 @@ const team = [
   {
     name: 'Carolina Castañeda',
     description: 'Ingeniera de software, WTM Ambassador y  GDG Medellin Lider',
-    picture: 'Carolina-Castañeda.jpeg',
+    picture: 'Carolina-Castaneda.jpeg',
     social: [
       {
         name: 'instagram',
@@ -62,7 +62,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/vrilly_castro?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D',
+        url: 'https://www.instagram.com/vrilly_castro',
       },
       {
         name: 'x',
@@ -78,7 +78,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/darkins?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/darkins',
       },
     ],
   },
@@ -90,7 +90,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/marianvilla?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/marianvilla',
       },
     ],
   },
@@ -105,7 +105,7 @@ const team = [
         url: 'https://www.instagram.com/girlesaqr/',
       },
       {
-        name: 'Linked',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/girlesa-quintero-rodr%C3%ADguez-800a5649/',
       },
     ],
@@ -134,7 +134,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/elizarangelm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/elizarangelm',
       },
     ],
   },
@@ -149,7 +149,7 @@ const team = [
         url: 'https://www.instagram.com/briaenrose/',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/brianithnavarro/',
       },
       {
@@ -169,7 +169,7 @@ const team = [
         url: 'https://www.instagram.com/sarantogo/',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/saranietog/',
       },
       {
@@ -182,11 +182,11 @@ const team = [
     name: 'Jennifer Castañeda',
     description:
       'Ingeniera Industrial con énfasis en Análisis de datos, actualmente Analista de Business Intelligence con más de 3 años de experiencia en el sector Fintech y de consultoría. Parte del equipo organizador de WiDS Medellín 2023 Ambassador y Tech Community.',
-    picture: 'Jennife-Castañeda.jpg',
+    picture: 'Jennifer-Castaneda.jpg',
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/jenni.alopez?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/jenni.alopez',
       },
     ],
   },
@@ -201,7 +201,7 @@ const team = [
         url: 'https://www.instagram.com/v.dev.valen/?next=%2F',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/valentina-p-86b3b913a/',
       },
     ],
@@ -214,7 +214,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/satencioh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/satencioh',
       },
     ],
   },
@@ -229,7 +229,7 @@ const team = [
         url: 'https://www.instagram.com/digitaldiaspora.la/',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/manuela-guerra-08b624207/',
       },
     ],
@@ -241,7 +241,7 @@ const team = [
     picture: 'Lili-ValGo.jpeg',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/lilivalgo/',
       },
     ],
@@ -253,7 +253,7 @@ const team = [
     picture: 'Tatiana-Rodriguez.png',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/jessicatatianarodriguez/',
       },
     ],
@@ -278,11 +278,15 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/manucastrillonm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/manucastrillonm',
       },
       {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/in/rina-plata/',
+        name: 'x',
+        url: 'https://www.x.com/manucastrillonm',
+      },
+      {
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/in/manuelacastrillon/',
       },
     ],
   },
@@ -309,7 +313,7 @@ const team = [
         url: 'https://www.instagram.com/alejahenaoe',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/alejahenaoe/',
       },
     ],
@@ -322,7 +326,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/anamariasosam?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/anamariasosam',
       },
     ],
   },
@@ -349,7 +353,7 @@ const team = [
     picture: 'Estebana-Orozco.jpeg',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/estebana-orozco/',
       },
       {
@@ -378,7 +382,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/lam_jesus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/lam_jesus',
       },
     ],
   },
@@ -389,7 +393,7 @@ const team = [
     picture: 'Erix-Mendoza.jpg',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'http://www.linkedin.com/in/erix-javier-mendoza',
       },
     ],
@@ -398,10 +402,10 @@ const team = [
     name: 'Lina Montaño',
     description:
       'Embajadora WTM, Lider en NodeCo, Fundadora Podcast CaminoDev, Backend Developer en NodeJS, creadora de contenido.',
-    picture: 'Lina-Montaño.jpg',
+    picture: 'Lina-Montano.jpg',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/calypsobronte/',
       },
     ],
@@ -409,5 +413,3 @@ const team = [
 ]
 
 export default team
-
-
