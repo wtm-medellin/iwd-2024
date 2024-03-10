@@ -54,7 +54,9 @@ export default function Navigation() {
   return (
     <nav className="navigation">
       <div className="navigation__logo">
-        <img src={WTMLogo} alt="WTM Logo" />
+        <Link to="/">
+          <img src={WTMLogo} alt="WTM Logo" />
+        </Link>
       </div>
       <div
         className={`navigation__toggle ${isOpen ? 'is-active' : ''}`}

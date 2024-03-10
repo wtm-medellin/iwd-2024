@@ -3,7 +3,7 @@ import './about.scss'
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="about__text-container">
+      <div className="about__text-container container">
         <h2 className="about__title">
           Sobre el <span className="about__event">Evento</span>
         </h2>

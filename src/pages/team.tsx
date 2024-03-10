@@ -11,7 +11,7 @@ export default function Team() {
         <div className="team__title-container">
           <h1 className="team__title">Organizadoras</h1>
         </div>
-        <ul className="team__list">
+        <ul className="team__list container">
           {team.map((element, index) => {
             const image = new URL(
               `../assets/team-pictures/${element.picture}`,

@@ -6,12 +6,14 @@ import Communities from './sections/communities/communities'
 import Sponsors from './sections/sponsors/sponsors'
 import Footer from './sections/footer/footer'
 import Navigation from './sections/navigation/navigation'
+import Registration from './sections/registration/registration'
 
 function App() {
   return (
     <>
       <Navigation />
       <Header />
+      <Registration />
       <About />
       <Speakers />
       <Sponsors />
