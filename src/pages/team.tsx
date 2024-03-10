@@ -8,6 +8,9 @@ export default function Team() {
     <>
       <Navigation />
       <section className="team">
+        <div className="team__title-container">
+          <h1 className="team__title">Organizadoras</h1>
+        </div>
         <ul className="team__list">
           {team.map((element, index) => {
             const image = new URL(
