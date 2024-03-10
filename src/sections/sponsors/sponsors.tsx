@@ -1,22 +1,9 @@
 import SectionTitle from '../../components/sectionTitle/sectionTitle'
 import Cta from '../../components/cta/cta'
+import sponsors from '../../assets/data/sponsors.tsx'
 import './sponsors.scss'
 
 export default function Sponsors() {
-  const sponsors = [
-    'google',
-    'nodo',
-    'eafit',
-    'gorillalogic',
-    'sonatype',
-    'comfama',
-    'intellias',
-    'github',
-    'dcaballero',
-    'notion',
-    'bdg',
-    'nix',
-  ]
   return (
     <section className="sponsors" id="sponsors">
       <div className="sponsors__container">
@@ -29,18 +16,25 @@ export default function Sponsors() {
           />
         </div>
         <ul className="sponsors__list">
-          {sponsors.map((element, index) => {
-            const image = new URL(
-              `../../assets/logos-sponsors/${element}.png`,
-              import.meta.url
-            ).href
+          {sponsors.map(
+            (
+              element: { name: string; logo: string; url: string },
+              index: number
+            ) => {
+              const image = new URL(
+                `../../assets/logos-sponsors/${element.logo}.png`,
+                import.meta.url
+              ).href
 
-            return (
-              <li key={index}>
-                <img src={image} alt={{ element } + 'logo'} />
-              </li>
-            )
-          })}
+              return (
+                <li key={index}>
+                  <a href={element.url} target="blank">
+                    <img src={image} alt={`${element.name} logo`} />
+                  </a>
+                </li>
+              )
+            }
+          )}
         </ul>
 
         <div className="sponsors__content">
