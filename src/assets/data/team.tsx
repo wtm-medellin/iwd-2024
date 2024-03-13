@@ -14,7 +14,7 @@ const team = [
   {
     name: 'Kaky Rodríguez',
     description:
-      'UX Designer y Comunicadora Social. Líder de PionerasDev Medellín y WTM Ambassador',
+      'UX Designer y Comunicadora Social. Líder de PionerasDev Medellín y WTM Ambassador. Mentora de empleabilidad.',
     picture: 'kaky-rodriguez.jpeg',
     social: [
       {
@@ -45,8 +45,8 @@ const team = [
   },
   {
     name: 'Carolina Castañeda',
-    description: 'Ingeniera de software, WTM Ambassador y  GDG Medellin Lider',
-    picture: 'Carolina-Castañeda.jpeg',
+    description: 'Ingeniera de software, WTM Ambassador y  GDG Medellin Lider.',
+    picture: 'Carolina-Castaneda.jpeg',
     social: [
       {
         name: 'instagram',
@@ -62,7 +62,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/vrilly_castro?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D',
+        url: 'https://www.instagram.com/vrilly_castro',
       },
       {
         name: 'x',
@@ -78,19 +78,19 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/darkins?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/darkins',
       },
     ],
   },
   {
     name: 'Marian Villa',
     description:
-      'Fullstack DevDesigner I Community Building, Technical Content and Product Design I Google Developer Expert on Web Tehnologies, Mentor in Google Accelerator and WTM Ambassador.',
+      'Diseñadora Fullstack de Productos. Experta en Creación de Comunidades y Contenido Técnico. Google Developer Expert en Web, Embajadora WTM, Mentora en Google for startups, y Fellow de la Real Academia de Ingeniería de Londres.',
     picture: 'Marian-Villa.jpg',
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/marianvilla?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/marianvilla',
       },
     ],
   },
@@ -105,7 +105,7 @@ const team = [
         url: 'https://www.instagram.com/girlesaqr/',
       },
       {
-        name: 'Linked',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/girlesa-quintero-rodr%C3%ADguez-800a5649/',
       },
     ],
@@ -113,7 +113,7 @@ const team = [
   {
     name: 'Veronica Rodriguez',
     description:
-      'Economista y Senior Product Manager con +7 años de experiencia en productos digitales en finanzas, logística y ciberseguridad. Referente de comunidades negras en tecnología, Embajadora de Women Tech Masker y Co-fundadora de Digital Diaspora. Organizadora en PionerasDev.',
+      'Economista. Senior Product Manager con +7 años de experiencia implementando productos digitales en el sector financiero, sector logístico y cyberseguridad,trabajo por ser referente de las comunidades negras en tecnología. Embajadora de Women Tech Masker. Miembro del equipo organizador de PionerasDev y Co- fundadora de Digital Diaspora.',
     picture: 'Veronica-Rodriguez.jpeg',
     social: [
       {
@@ -134,14 +134,14 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/elizarangelm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/elizarangelm',
       },
     ],
   },
   {
     name: 'Brianith Navarro',
     description:
-      "Ing. Industrial de profesión y diseñadora y programadora autodidacta. Community Builder.'Desarrolladora con 2+ años en .Net/AngularJs, WTM Ambassador y miembro del core team de PionerasDev. Apasionada por romper brechas de género en tecnología.",
+      'Ing. Industrial de profesión y diseñadora y programadora autodidacta. Community Builder.',
     picture: 'Brianith-Navarro.png',
     social: [
       {
@@ -149,7 +149,7 @@ const team = [
         url: 'https://www.instagram.com/briaenrose/',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/brianithnavarro/',
       },
       {
@@ -169,7 +169,7 @@ const team = [
         url: 'https://www.instagram.com/sarantogo/',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/saranietog/',
       },
       {
@@ -182,11 +182,11 @@ const team = [
     name: 'Jennifer Castañeda',
     description:
       'Ingeniera Industrial con énfasis en Análisis de datos, actualmente Analista de Business Intelligence con más de 3 años de experiencia en el sector Fintech y de consultoría. Parte del equipo organizador de WiDS Medellín 2023 Ambassador y Tech Community.',
-    picture: 'Jennife-Castañeda.jpg',
+    picture: 'Jennifer-Castaneda.jpg',
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/jenni.alopez?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/jenni.alopez',
       },
     ],
   },
@@ -201,7 +201,7 @@ const team = [
         url: 'https://www.instagram.com/v.dev.valen/?next=%2F',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/valentina-p-86b3b913a/',
       },
     ],
@@ -214,14 +214,14 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/satencioh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/satencioh',
       },
     ],
   },
   {
     name: 'Manuela Guerra',
     description:
-      'Engineer en Rockwell Automation, promueve el empoderamiento femenino, diversidad e inclusión. Activista por los derechos de comunidades negras, líder de Digital Diáspora.',
+      'Software Engineer en Rockwell Automation, promueve el empoderamiento femenino, diversidad e inclusión. Activista por los derechos de comunidades negras, líder de Digital Diáspora.',
     picture: 'Manuela-Guerra.JPEG',
     social: [
       {
@@ -229,7 +229,7 @@ const team = [
         url: 'https://www.instagram.com/digitaldiaspora.la/',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/manuela-guerra-08b624207/',
       },
     ],
@@ -237,11 +237,11 @@ const team = [
   {
     name: 'Lili Valencia',
     description:
-      'Ingeniera Ambiental, analista de datos en AIR-E, estudiante ML y Rust. Soy Lider de la comunidad Google Developers Group Medellín. Me motiva construir soluciones tecnoloógicas que impacten positivamente el planeta.Mi frase favorita "En comunidad se aprende y se construye.',
+      'Ingeniera Ambiental, analista de datos en AIR-E, estudiante ML y Rust. Soy Lider de la comunidad Google Developers Group Medellín. Me motiva construir soluciones tecnoloógicas que impacten positivamente el planeta. Mi frase favorita ""En comunidad se aprende y se construye.',
     picture: 'Lili-ValGo.jpeg',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/lilivalgo/',
       },
     ],
@@ -249,11 +249,11 @@ const team = [
   {
     name: 'Tatiana Rodriguez',
     description:
-      'Desarrolladora Frontend con pasión por compartir conocimiento y mejorar vidas! En camino hacia una Maestría en Ingeniería de Software, certificada como Scrum Master. Lider en PionerasDev Bucaramanga, ¡promoviendo la inclusión y la diversidad en la industria! Amante de la tecnología, los gatos y los viajes.',
+      '¡Desarrolladora Frontend con pasión por compartir conocimiento y mejorar vidas! En camino hacia una Maestría en Ingeniería de Software, certificada como Scrum Master. Lider en PionerasDev Bucaramanga, ¡promoviendo la inclusión y la diversidad en la industria! Amante de la tecnología, los gatos y los viajes.',
     picture: 'Tatiana-Rodriguez.png',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/jessicatatianarodriguez/',
       },
     ],
@@ -278,11 +278,15 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/manucastrillonm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/manucastrillonm',
       },
       {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/in/rina-plata/',
+        name: 'x',
+        url: 'https://www.x.com/manucastrillonm',
+      },
+      {
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/in/manuelacastrillon/',
       },
     ],
   },
@@ -301,7 +305,7 @@ const team = [
   {
     name: 'Aleja Henao',
     description:
-      'Experta en tecnología y líder apasionada. Se formó en desarrollo, gestión de proyectos, análisis de datos y marketing digital de manera autodidacta. Founding Team y líder de Growth en Dapta.ai',
+      'Experta en tecnología y líder apasionada. Se formó en desarrollo, gestión de proyectos, análisis de datos y marketing digital de manera autodidacta. Founding Team y líder de Growth en Dapta.ai Participa activamente en comunidades tech como líder, voluntaria y speaker WomenTech Makers, Pioneras Dev, AWS Women Colombia, Cloud Camp y Notion Colombia.',
     picture: 'Alejandra-Henao.jpg',
     social: [
       {
@@ -309,7 +313,7 @@ const team = [
         url: 'https://www.instagram.com/alejahenaoe',
       },
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/alejahenaoe/',
       },
     ],
@@ -322,14 +326,14 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/anamariasosam?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/anamariasosam',
       },
     ],
   },
   {
     name: 'Roxana Rodriguez',
     description:
-      'Diseñadora gráfica y consultora. Fundadora de NotionColombia y líder organizadora de la comunidad GDG San Nicolas.',
+      'Diseñadora y consultora certificada de Notion. Fundadora de Notion Colombia. Me encanta todo lo relacionado con el arte, el diseño y el no-code.',
     picture: 'Roxana-Rodriguez.png',
     social: [
       {
@@ -349,7 +353,7 @@ const team = [
     picture: 'Estebana-Orozco.jpeg',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/estebana-orozco/',
       },
       {
@@ -378,7 +382,7 @@ const team = [
     social: [
       {
         name: 'instagram',
-        url: 'https://www.instagram.com/lam_jesus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+        url: 'https://www.instagram.com/lam_jesus',
       },
     ],
   },
@@ -389,7 +393,7 @@ const team = [
     picture: 'Erix-Mendoza.jpg',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'http://www.linkedin.com/in/erix-javier-mendoza',
       },
     ],
@@ -398,10 +402,10 @@ const team = [
     name: 'Lina Montaño',
     description:
       'Embajadora WTM, Lider en NodeCo, Fundadora Podcast CaminoDev, Backend Developer en NodeJS, creadora de contenido.',
-    picture: 'Lina-Montaño.jpg',
+    picture: 'Lina-Montano.jpg',
     social: [
       {
-        name: 'Linkedin',
+        name: 'linkedin',
         url: 'https://www.linkedin.com/in/calypsobronte/',
       },
     ],
@@ -409,5 +413,3 @@ const team = [
 ]
 
 export default team
-
-
