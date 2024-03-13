@@ -4,6 +4,7 @@ import About from './sections/about/about'
 import Speakers from './sections/speakers/speakers'
 import Communities from './sections/communities/communities'
 import Sponsors from './sections/sponsors/sponsors'
+import Agenda from './sections/agenda/agenda'
 import Footer from './sections/footer/footer'
 import Navigation from './sections/navigation/navigation'
 import Registration from './sections/registration/registration'
@@ -16,6 +17,7 @@ function App() {
       <Registration />
       <About />
       <Speakers />
+      <Agenda />
       <Sponsors />
       <Communities />
       <Footer />
