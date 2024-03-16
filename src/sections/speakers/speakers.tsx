@@ -1,9 +1,10 @@
 import './speakers.scss'
 import SectionTitle from '../../components/sectionTitle/sectionTitle'
+import speakersList from '../../assets/data/speakers'
+import Bio from '../../components/bio/bio'
 
 const SECTION = {
   TITLE: 'Speakers',
-  DESCRIPTION: 'Pronto conocerás nuestros speakers y charlas propuestas.',
 }
 
 export default function Speakers() {
@@ -17,9 +18,15 @@ export default function Speakers() {
           assetName="mic-vector"
         />
       </div>
-      <div className="speakers__container">
-        <p className="speakers__description">{SECTION.DESCRIPTION} </p>
-      </div>
+      <ul className="speakers__list container">
+        {speakersList.map((element, index) => {
+          return (
+            <li key={index} className="speakers__element">
+              <Bio {...element} />
+            </li>
+          )
+        })}
+      </ul>
     </section>
   )
 }

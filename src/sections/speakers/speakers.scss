@@ -8,39 +8,18 @@
     padding-right: 5%;
   }
 
-  &__description {
-    color: #000;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 41px;
-    margin-block: 30px;
-    text-align: left;
-
-    @media screen and (min-width: $viewport-md) {
-      font-size: 64px;
-      line-height: 74px;
-    }
-  }
-
-  &__container {
-    margin: 13px 18px;
-    max-width: 1440px;
+  &__element {
+    margin: 25px 30px;
 
     @media screen and (min-width: $viewport-lg) {
-      align-items: center;
-      display: flex;
-      gap: 24px;
-      margin: 76px 176px 110px 181px;
+      margin: 25px 70px;
     }
   }
 
-  &__cfp-button {
-    display: inline-block;
-    width: 100%;
-
-    @media screen and (min-width: $viewport-md) {
-      flex-shrink: 0;
-      width: 455px;
-    }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

@@ -42,7 +42,7 @@ export default function Registration() {
             <p>
               Sábado, 13 de Abril 2024
               <br />
-              10:00 AM - 5:00 PM
+              09:00 AM - 5:30 PM
             </p>
           </div>
           <div className="registration__info">
