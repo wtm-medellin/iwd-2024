@@ -8,7 +8,7 @@ export default function Communities() {
       <ul className="communities__list">
         {communities.map((element, index) => {
           const image = new URL(
-            `../../assets/communities/${element.logo}.svg`,
+            `../../assets/communities/${element.logo}`,
             import.meta.url
           ).href
 
