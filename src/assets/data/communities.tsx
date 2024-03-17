@@ -34,6 +34,11 @@ const communities = [
     logo: 'wwc.png',
     url: 'https://www.instagram.com/wwcodemedellin/',
   },
+  {
+    name: 'ibagirls',
+    logo: 'ibagirls.png',
+    url: 'https://www.instagram.com/ibagirlsdev/',
+  },
 ]
 
 export default communities
