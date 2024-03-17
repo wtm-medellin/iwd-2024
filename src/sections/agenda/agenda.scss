@@ -15,30 +15,47 @@
     align-items: center;
   }
   &__sub-header {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
     color: $green-haze;
+
+    @media screen and (min-width: $viewport-md) {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
   }
 
   &__schedule {
     display: flex;
     flex-direction: column;
     align-items: start;
+    font-size: 14px;
+
+    @media screen and (min-width: $viewport-md) {
+      font-size: 20px;
+    }
     &__row {
       display: flex;
       justify-content: center;
       align-items: center;
 
       &:not(:last-child) {
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.1rem;
+        @media screen and (min-width: $viewport-md) {
+          margin-right: 0.3rem;
+        }
       }
 
       &__cell {
-        height: 3.5rem;
+        height: 10rem;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0.3rem;
+
+        @media screen and (min-width: $viewport-md) {
+          height: 3.5rem;
+        }
 
         &--green {
           background: #d1ece3;
@@ -53,16 +70,28 @@
         }
 
         &:not(:last-child) {
-          margin-right: 0.3rem;
+          margin-right: 0.1rem;
+
+          @media screen and (min-width: $viewport-md) {
+            margin-right: 0.3rem;
+          }
         }
       }
 
       & > * {
-        border-radius: 5px;
+        border-radius: 2px;
+        @media screen and (min-width: $viewport-md) {
+          border-radius: 5px;
+        }
       }
       &__hours {
         display: flex;
-        width: 11rem;
+        flex-direction: column;
+        width: 3rem;
+        @media screen and (min-width: $viewport-md) {
+          flex-direction: row;
+          width: 11rem;
+        }
 
         &-dash {
           margin: 0 0.5rem;
@@ -75,11 +104,17 @@
       }
 
       &__topic-main {
-        width: 39rem;
+        width: 7.5rem;
+        @media screen and (min-width: $viewport-md) {
+          width: 39rem;
+        }
       }
 
       &__topic-secondary {
-        width: 20rem;
+        width: 7rem;
+        @media screen and (min-width: $viewport-md) {
+          width: 20rem;
+        }
       }
     }
   }

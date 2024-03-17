@@ -39,8 +39,7 @@ export default function Agenda() {
     {
       from: '11:30 AM',
       to: '12:00 M',
-      topicMain:
-        'El dragón que le teníaFoto grupal, Almuerzo y Networking miedo a volar - Violeta Betancur',
+      topicMain: 'El dragón que le tenía miedo a volar - Violeta Betancur',
       topicSecondary: '',
       stage: 'main',
       color: 'green',
