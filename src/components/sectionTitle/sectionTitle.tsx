@@ -3,7 +3,7 @@ import './sectionTitle.scss'
 type sectionTitleProps = {
   text: string
   direction: 'right' | 'left'
-  style: 'blue' | 'pink'
+  style: 'blue' | 'pink' | 'green'
   assetName: string //relative to the /assets/illustrations path without the extension
 }
 
