@@ -19,7 +19,7 @@
     line-height: 1rem;
     color: $green-haze;
 
-    @media screen and (min-width: $viewport-md) {
+    @media screen and (min-width: $viewport-lg) {
       font-size: 1.5rem;
       line-height: 2rem;
     }
@@ -31,30 +31,61 @@
     align-items: start;
     font-size: 14px;
 
-    @media screen and (min-width: $viewport-md) {
+    @media screen and (min-width: $viewport-lg) {
       font-size: 20px;
     }
     &__row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+
+      @media screen and (min-width: $viewport-lg) {
+        display: flex;
+        justify-content: center;
+      }
+
+      &:first-child {
+        background-color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        position: sticky;
+        text-align: center;
+        top: 0;
+
+        > .agenda__schedule__row__hours {
+          display: none;
+        }
+
+        @media screen and (min-width: $viewport-lg) {
+          font-size: unset;
+
+          > .agenda__schedule__row__hours {
+            display: unset;
+          }
+        }
+      }
 
       &:not(:last-child) {
-        margin-bottom: 0.1rem;
-        @media screen and (min-width: $viewport-md) {
+        margin-bottom: 0.3rem;
+
+        @media screen and (min-width: $viewport-lg) {
+          margin-bottom: 0.1rem;
           margin-right: 0.3rem;
         }
       }
 
       &__cell {
-        height: 10rem;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0.3rem;
 
-        @media screen and (min-width: $viewport-md) {
-          height: 3.5rem;
+        @media screen and (min-width: $viewport-lg) {
+          min-height: 3.5rem;
+
+          &:not(:last-child) {
+            margin-right: 0.3rem;
+          }
         }
 
         &--green {
@@ -68,52 +99,56 @@
         &--blue {
           background: #cae6ff;
         }
-
-        &:not(:last-child) {
-          margin-right: 0.1rem;
-
-          @media screen and (min-width: $viewport-md) {
-            margin-right: 0.3rem;
-          }
-        }
       }
 
       & > * {
         border-radius: 2px;
-        @media screen and (min-width: $viewport-md) {
+
+        @media screen and (min-width: $viewport-lg) {
           border-radius: 5px;
         }
       }
       &__hours {
         display: flex;
-        flex-direction: column;
-        width: 3rem;
-        @media screen and (min-width: $viewport-md) {
-          flex-direction: row;
+        flex-direction: row;
+        grid-column: span 2;
+        grid-row: 1;
+        margin-bottom: 0.1rem;
+
+        @media screen and (min-width: $viewport-lg) {
           width: 11rem;
+          margin-bottom: 0;
+
+          &-number {
+            width: 5rem;
+          }
         }
 
         &-dash {
           margin: 0 0.5rem;
         }
         &-number {
-          width: 5rem;
           display: flex;
           justify-content: center;
         }
       }
 
       &__topic-main {
-        width: 7.5rem;
-        @media screen and (min-width: $viewport-md) {
-          width: 39rem;
+        grid-column: 1;
+        grid-row: 2;
+        margin-right: 0.1rem;
+
+        @media screen and (min-width: $viewport-lg) {
+          width: calc(65% - 11rem - 12px);
         }
       }
 
       &__topic-secondary {
-        width: 7rem;
-        @media screen and (min-width: $viewport-md) {
-          width: 20rem;
+        grid-column: 2;
+        grid-row: 2;
+
+        @media screen and (min-width: $viewport-lg) {
+          width: 35%;
         }
       }
     }
