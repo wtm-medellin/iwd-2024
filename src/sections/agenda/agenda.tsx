@@ -108,6 +108,7 @@ export default function Agenda() {
             to: '14:45',
             title: 'Panel de mujeres: Impactando el futuro',
             color: 'green',
+            speaker: 'Elizabeth Suescún, Rebeca Gómez, Kelly Muñoz',
           },
           topicSecondary: null,
         },
