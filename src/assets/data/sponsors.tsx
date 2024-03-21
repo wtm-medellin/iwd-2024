@@ -59,6 +59,11 @@ const sponsors = [
     logo: 'nix',
     url: 'https://www.n-ix.com/',
   },
+  {
+    name: 'gap',
+    logo: 'gap',
+    url: 'https://careers.wearegap.com/',
+  },
 ]
 
 export default sponsors
