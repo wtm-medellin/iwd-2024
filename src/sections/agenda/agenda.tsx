@@ -120,9 +120,9 @@ export default function Agenda() {
         {
           topicMain: {
             from: '15:00',
-            to: '15:30',
+            to: '16:45',
             title:
-              'Transformando la colaboración y organización digital con IA: Casos de uso sobre la IA en Notion para equipos de trabajo',
+              'Workshop: Transformando la colaboración y organización digital con IA: Casos de uso sobre la IA en Notion para equipos de trabajo',
             speaker: 'Roxana Rodríguez',
             color: 'red',
           },
@@ -173,7 +173,7 @@ export default function Agenda() {
       </div>
       <div className="agenda__container">
         <h2 className="agenda__sub-header">
-          #WTMImpactTheFuture Sábado, 13 de Abril 2024 - 10:00 AM - 5:00 PM
+          #WTMImpactTheFuture Sábado, 13 de Abril 2024 - 09:00 AM - 06:00 PM
         </h2>
 
         <div className="agenda__schedule">
