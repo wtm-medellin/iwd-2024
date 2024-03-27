@@ -141,19 +141,19 @@
 
         &--green {
           background: #d1ece3;
-          border-color: #2e7d32;
+          border-color: #04a88c;
 
           #{$row}__hours-number {
-            color: #2e7d32;
+            color: #04a88c;
           }
         }
 
         &--red {
           background: #ffe7e1;
-          border-color: #c62828;
+          border-color: #ff676a;
 
           #{$row}__hours-number {
-            color: #c62828;
+            color: #ff676a;
           }
         }
 
