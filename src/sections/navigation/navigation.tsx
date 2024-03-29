@@ -43,7 +43,7 @@ export default function Navigation() {
     {
       text: 'Patrocinadores',
       url: '/',
-      id: '#sponsors',
+      id: '#supporters',
     },
     {
       text: 'Equipo',
