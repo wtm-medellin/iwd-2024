@@ -3,7 +3,7 @@ import Header from './sections/header/header'
 import About from './sections/about/about'
 import Speakers from './sections/speakers/speakers'
 import Communities from './sections/communities/communities'
-import Sponsors from './sections/sponsors/sponsors'
+import Supporters from './sections/supporters/supporters'
 import Agenda from './sections/agenda/agenda'
 import Footer from './sections/footer/footer'
 import Navigation from './sections/navigation/navigation'
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Speakers />
       <Agenda />
-      <Sponsors />
+      <Supporters />
       <Communities />
       <Footer />
     </>

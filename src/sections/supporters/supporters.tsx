@@ -1,13 +1,13 @@
 import SectionTitle from '../../components/sectionTitle/sectionTitle'
 import Cta from '../../components/cta/cta'
-import sponsors from '../../assets/data/sponsors.tsx'
-import './sponsors.scss'
+import supporters from '../../assets/data/supporters.tsx'
+import './supporters.scss'
 
-export default function Sponsors() {
+export default function Supporters() {
   return (
-    <section className="sponsors" id="sponsors">
-      <div className="sponsors__container">
-        <div className="sponsors__title-container">
+    <section className="supporters" id="supporters">
+      <div className="supporters__container">
+        <div className="supporters__title-container">
           <SectionTitle
             text="Patrocinadores"
             direction="right"
@@ -15,14 +15,14 @@ export default function Sponsors() {
             assetName="badge-vector"
           />
         </div>
-        <ul className="sponsors__list">
-          {sponsors.map(
+        <ul className="supporters__list">
+          {supporters.map(
             (
               element: { name: string; logo: string; url: string },
               index: number
             ) => {
               const image = new URL(
-                `../../assets/logos-sponsors/${element.logo}.png`,
+                `../../assets/logos-supporters/${element.logo}.png`,
                 import.meta.url
               ).href
 
@@ -37,8 +37,8 @@ export default function Sponsors() {
           )}
         </ul>
 
-        <div className="sponsors__content">
-          <div className="sponsors__text">
+        <div className="supporters__content">
+          <div className="supporters__text">
             <p>
               Gana visibilidad para tu empresa y apoya a más mujeres a construir
               su carrera en tecnología.
@@ -46,12 +46,12 @@ export default function Sponsors() {
             <br />
             <p>
               Escríbenos a{' '}
-              <a href="mailto:wtm@pionerasdev.co" className="sponsors__email">
+              <a href="mailto:wtm@pionerasdev.co" className="supporters__email">
                 wtm@pionerasdev.co
               </a>
             </p>
           </div>
-          <div className="sponsors__cta">
+          <div className="supporters__cta">
             <Cta text="Contáctanos" url="mailto:wtm@pionerasdev.co" />
           </div>
         </div>
