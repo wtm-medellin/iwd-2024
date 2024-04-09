@@ -64,6 +64,16 @@ const sponsors = [
     logo: 'gap',
     url: 'https://careers.wearegap.com/',
   },
+  {
+    name: 'sombra',
+    logo: 'sombra',
+    url: 'https://www.sombrainc.com/careers',
+  },
+  {
+    name: 'idiomas eafit',
+    logo: 'idiomas-eafit',
+    url: 'https://www.eafit.edu.co/idiomas/Paginas/inicio.aspx',
+  },
 ]
 
 export default sponsors
