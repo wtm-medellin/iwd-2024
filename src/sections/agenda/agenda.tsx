@@ -128,7 +128,7 @@ export default function Agenda() {
           },
           topicSecondary: {
             title:
-              'Mentorías para empleabilidad, hoja de ruta profesional y Mock Interviews',
+              'Mentorías para empleabilidad y hoja de ruta profesional',
             from: '15:30',
             to: '16:45',
             color: 'blue',
