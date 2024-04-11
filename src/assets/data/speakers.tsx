@@ -24,6 +24,21 @@ const speakers = [
     picture: 'lili-valencia-gonzalez.jpg',
     bio: 'Ingeniera ambiental y analista de datos. Organizadora del GDG Medellín.',
   },
+  {
+    name: 'Elizabeth Suescún',
+    picture: 'elizabeth-suescun.jpeg',
+    bio: 'Prof. Universidad EAFIT. Investigadora en Ciencias de la  computación y brecha de género',
+  },
+  {
+    name: 'Rebeca Gómez',
+    picture: 'rebeca-gomez.jpg',
+    bio: 'Abogada. Experta en gestión de parques empresariales. Asociación Donne 4.0',
+  },
+  {
+    name: 'Kelly Muñoz',
+    picture: 'kelly-munoz.jpeg',
+    bio: 'Magister en Física. Doctoranda en física teórica',
+  },
 ]
 
 export default speakers
