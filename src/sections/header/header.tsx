@@ -1,5 +1,6 @@
 import './header.scss'
 import wtmLogo from '../../assets/wtm-logo-bw.svg'
+import Cta from '../../components/cta/cta'
 
 export default function Header() {
   return (
@@ -15,6 +16,10 @@ export default function Header() {
           Abril 13, 2024
           <br /> Medellín, Colombia
         </p>
+        <Cta
+          text="Descarga aquí tu foto de LinkedIn"
+          url="https://drive.google.com/drive/folders/1KozYKjNKr19VN42dF2RrxoxvbKPlZXjh"
+        />
       </div>
     </section>
   )

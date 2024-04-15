@@ -42,7 +42,7 @@ const sponsors = [
   {
     name: 'dcaballero',
     logo: 'dcaballero',
-    url: '',
+    url: 'https://dcaballero.net/',
   },
   {
     name: 'notion',
