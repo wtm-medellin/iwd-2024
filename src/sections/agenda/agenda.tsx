@@ -14,6 +14,7 @@ export default function Agenda() {
               'Recepción y Networking en la plaza del Auditorio Fundadores',
             color: 'blue',
             speaker: null,
+            slides: null,
           },
           topicSecondary: null,
         },
@@ -39,6 +40,8 @@ export default function Agenda() {
             title:
               'La Sostenibilidad Digital: La clave para impactar el futuro y ayudar al planeta',
             color: 'green',
+            slides:
+              'https://drive.google.com/file/d/1lMV0M65uaeL5ueEUTn6dyxTv-rC755FC/view?usp=sharing',
           },
           topicSecondary: null,
         },
@@ -54,6 +57,8 @@ export default function Agenda() {
             title: 'Hello World: Rust',
             speaker: 'Lili Valencia',
             color: 'blue',
+            slides:
+              'https://drive.google.com/drive/u/0/folders/1wKRMo8pXYsFpwjGqY7tdwnOkyXoH0G1e',
           },
           topicSecondary: null,
         },
@@ -64,6 +69,8 @@ export default function Agenda() {
             title: 'El dragón que le tenía miedo a volar',
             speaker: 'Violeta Betancur',
             color: 'green',
+            slides:
+              'https://drive.google.com/file/d/17lsvutbFBLA1L8ajv8EcL4oXtSIxareR/view?usp=sharing',
           },
           topicSecondary: null,
         },
@@ -94,6 +101,8 @@ export default function Agenda() {
               'Desafíos éticos en la Inteligencia Artificial y el sesgo de género',
             color: 'blue',
             speaker: 'Mariana Rodríguez',
+            slides:
+              'https://drive.google.com/file/d/1yHLnZ2yfye-Io2b9Zu4VBeodrHIvZ4iB/view',
           },
           topicSecondary: null,
         },
@@ -109,6 +118,7 @@ export default function Agenda() {
             title: 'Panel de mujeres: Impactando el futuro',
             color: 'green',
             speaker: 'Elizabeth Suescún, Rebeca Gómez, Kelly Muñoz',
+            slides: null,
           },
           topicSecondary: null,
         },
@@ -125,6 +135,7 @@ export default function Agenda() {
               'Workshop: Transformando la colaboración y organización digital con IA: Casos de uso sobre la IA en Notion para equipos de trabajo',
             speaker: 'Roxana Rodríguez',
             color: 'red',
+            slides: null,
           },
           topicSecondary: {
             title:
@@ -214,6 +225,11 @@ export default function Agenda() {
                               <span className="agenda__schedule__row__cell-speaker">
                                 - {topicMain.speaker}
                               </span>
+                            )}
+                            {topicMain.slides && (
+                              <a href={topicMain.slides} target="_blank">
+                                Ver presentación
+                              </a>
                             )}
                           </div>
                         </div>
